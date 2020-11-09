@@ -3,6 +3,7 @@
 ## Controls
 
 ## Credits
+8-bit Falcons  
 Script: x  
 Graphics: x  
 Music/Sound Design: x  
