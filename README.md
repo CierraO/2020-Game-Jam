@@ -1,5 +1,10 @@
-Special installation instructions
+## Special installation instructions
 
-Controls
+## Controls
 
-Credits
+## Credits
+Script: x
+Graphics: x
+Music/Sound Design: x
+Level Design: x
+Programming: x
