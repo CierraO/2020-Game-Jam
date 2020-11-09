@@ -6,7 +6,7 @@ CREDITS
 All code, art, and music was created by the 8-bit Falcons.
 
 Script: Mitchell Berube, Cameron David, Katherine Lam, Conor Meenan, and Cierra O'Grady
-Graphics: Cameron David and Katherine Lam
+Graphics: Cameron David, Katherine Lam, and Mason Woodhams
 Music/Sound Design: Mitchell Berube, Cameron David, and Katherine Lam
 Level Design: x
 Programming: Katherine Lam, Conor Meenan, and Cierra O'Grady
