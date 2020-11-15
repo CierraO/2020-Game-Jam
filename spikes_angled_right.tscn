@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/hazards/spikes/spikes_angled_flipped.png" type="Texture" id=1]
+[ext_resource path="res://spikes_angled_right.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 8, 10 )
+
+[node name="spikes_angled_right" type="Area2D"]
+position = Vector2( 24, 136 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0.0743256, -2.00679 )
+scale = Vector2( 1, 1 )
+shape = SubResource( 2 )
+
+[node name="spikes_angled" type="Sprite" parent="."]
+position = Vector2( -2.26498e-06, 4.04119e-05 )
+scale = Vector2( 0.166667, 0.166667 )
+texture = ExtResource( 1 )
