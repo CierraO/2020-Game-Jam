@@ -11,7 +11,7 @@ All code, artwork, and music was created by the 8-bit Falcons.
 
 Story: Mitchell Berube, Cameron David, Katherine Lam, Conor Meenan, Cierra O'Grady, and Mason Woodhams
 Graphics: Cameron David, Katherine Lam, and Mason Woodhams
-Music/Sound Design: Mitchell Berube (Director), Ted Allen, Cameron David, and Katherine Lam
+Music/Sound Design: Mitchell Berube (Director), Ted Allen, and Katherine Lam
 Level Design: Ted Allen, Mitchell Berube, Cameron David, Katherine Lam, Conor Meenan, Cierra O'Grady, and Mason Woodhams
 Programming: Cierra O'Grady (Director) and Conor Meenan
 
