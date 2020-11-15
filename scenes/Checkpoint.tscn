@@ -3,7 +3,6 @@
 [ext_resource path="res://scenes/Checkpoint.gd" type="Script" id=1]
 [ext_resource path="res://assets/puzzles/checkpoint_animated.tres" type="Texture" id=2]
 
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 24.024, 31.7397 )
 
