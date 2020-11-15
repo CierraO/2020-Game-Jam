@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="Lantern"
 config/description="On her way to a robotics competition, Ember is confronted by a threatening stranger and flees into a strange forest full of bouncy mushrooms and magical warps."
-run/main_scene="res://Template-Level.tscn"
+run/main_scene="res://Level1.tscn"
 boot_splash/image="res://assets/backgrounds/level_1.png"
 boot_splash/bg_color=Color( 0.113725, 0.0823529, 0.341176, 1 )
 config/icon="res://icon.png"

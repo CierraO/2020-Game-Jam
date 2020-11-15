@@ -1,0 +1,172 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://spikes_left.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Checkpoint.tscn" type="PackedScene" id=3]
+[ext_resource path="res://tilesets/dirt-tiles.tres" type="TileSet" id=4]
+[ext_resource path="res://assets/backgrounds/level_1.png" type="Texture" id=5]
+[ext_resource path="res://spikes_right.tscn" type="PackedScene" id=6]
+[ext_resource path="res://tilesets/leaf-tiles.tres" type="TileSet" id=7]
+[ext_resource path="res://spikes_angled_left.tscn" type="PackedScene" id=8]
+[ext_resource path="res://music/wav/Level 1.wav" type="AudioStream" id=9]
+[ext_resource path="res://spikes.tscn" type="PackedScene" id=10]
+[ext_resource path="res://spikes_angled_right.tscn" type="PackedScene" id=11]
+[ext_resource path="res://assets/tiles/grass_green.png" type="Texture" id=12]
+[ext_resource path="res://moving_block.gd" type="Script" id=13]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 8, 8 )
+
+[node name="Level1" type="Node"]
+
+[node name="bg" type="Sprite" parent="."]
+position = Vector2( 240, 80 )
+scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 8, 88 )
+
+[node name="InterfaceLayer" type="CanvasLayer" parent="."]
+
+[node name="PauseMenu" type="Control" parent="InterfaceLayer"]
+visible = false
+margin_right = 800.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Dirt" type="TileMap" parent="."]
+scale = Vector2( 0.333, 0.333 )
+tile_set = ExtResource( 4 )
+cell_size = Vector2( 48, 48 )
+format = 1
+tile_data = PoolIntArray( 65535, 0, 0, 30, 0, 0, 131071, 0, 0, 65566, 0, 0, 196607, 0, 0, 131084, 2, 0, 131102, 0, 0, 262143, 0, 0, 196620, 0, 0, 196638, 0, 0, 327679, 0, 0, 262150, 2, 0, 262151, 2, 0, 262152, 2, 0, 262156, 0, 0, 262167, 2, 0, 262174, 0, 0, 393215, 0, 0, 327703, 0, 0, 327710, 0, 0, 458751, 0, 0, 393216, 2, 0, 393219, 2, 0, 393220, 2, 0, 393221, 2, 0, 393229, 2, 0, 393230, 2, 0, 393231, 2, 0, 393234, 2, 0, 393239, 0, 0, 393240, 2, 0, 393241, 2, 0, 393242, 2, 0, 393243, 2, 0, 393244, 2, 0, 393245, 2, 0, 393246, 0, 0, 524287, 0, 0, 458752, 0, 0, 458755, 0, 0, 458756, 0, 0, 458757, 0, 0, 458765, 0, 0, 458766, 0, 0, 458767, 0, 0, 458775, 0, 0, 458776, 0, 0, 458777, 0, 0, 458778, 0, 0, 458779, 0, 0, 458780, 0, 0, 458781, 0, 0, 458782, 0, 0, 589823, 0, 0, 524288, 0, 0, 524291, 0, 0, 524292, 0, 0, 524293, 0, 0, 524301, 0, 0, 524302, 0, 0, 524303, 0, 0, 524311, 0, 0, 524312, 0, 0, 524313, 0, 0, 524314, 0, 0, 524315, 0, 0, 524316, 0, 0, 524317, 0, 0, 524318, 0, 0, 655359, 0, 0, 589824, 0, 0, 589825, 2, 0, 589826, 2, 0, 589827, 0, 0, 589828, 0, 0, 589829, 0, 0, 589830, 2, 0, 589831, 2, 0, 589832, 2, 0, 589833, 2, 0, 589834, 2, 0, 589835, 2, 0, 589836, 2, 0, 589837, 0, 0, 589838, 0, 0, 589839, 0, 0, 589840, 2, 0, 589841, 2, 0, 589842, 2, 0, 589843, 2, 0, 589844, 2, 0, 589845, 2, 0, 589846, 2, 0, 589847, 0, 0, 589848, 0, 0, 589849, 0, 0, 589850, 0, 0, 589851, 0, 0, 589852, 0, 0, 589853, 0, 0, 589854, 0, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Leaves" type="TileMap" parent="."]
+scale = Vector2( 0.5, 0.5 )
+tile_set = ExtResource( 7 )
+cell_size = Vector2( 48, 16 )
+format = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Checkpoint" parent="." instance=ExtResource( 3 )]
+position = Vector2( 472, 80 )
+next_scence = "res://Level2.tscn"
+
+[node name="Hazards" type="Node" parent="."]
+
+[node name="spikes" parent="Hazards" instance=ExtResource( 10 )]
+
+[node name="spikes2" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 120, 136 )
+
+[node name="spikes7" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 280, 136 )
+
+[node name="spikes8" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 296, 136 )
+
+[node name="spikes12" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 376, 56 )
+
+[node name="spikes9" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 312, 136 )
+
+[node name="spikes10" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 328, 136 )
+
+[node name="spikes11" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 344, 136 )
+
+[node name="spikes3" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 136, 136 )
+
+[node name="spikes4" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 152, 136 )
+
+[node name="spikes5" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 168, 136 )
+
+[node name="spikes6" parent="Hazards" instance=ExtResource( 10 )]
+position = Vector2( 184, 136 )
+
+[node name="spikes_left" parent="Hazards" instance=ExtResource( 2 )]
+
+[node name="spikes_left8" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 184, 56 )
+
+[node name="spikes_left9" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 184, 40 )
+
+[node name="spikes_left7" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 184, 72 )
+
+[node name="spikes_left3" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 360, 120 )
+
+[node name="spikes_left4" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 360, 104 )
+
+[node name="spikes_left5" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 360, 88 )
+
+[node name="spikes_left6" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 360, 72 )
+
+[node name="spikes_left2" parent="Hazards" instance=ExtResource( 2 )]
+position = Vector2( 40, 120 )
+
+[node name="spikes_right" parent="Hazards" instance=ExtResource( 6 )]
+
+[node name="spikes_right2" parent="Hazards" instance=ExtResource( 6 )]
+position = Vector2( 104, 120 )
+
+[node name="spikes_right3" parent="Hazards" instance=ExtResource( 6 )]
+position = Vector2( 264, 120 )
+
+[node name="spikes_angled_left" parent="Hazards" instance=ExtResource( 8 )]
+
+[node name="spikes_angled_left2" parent="Hazards" instance=ExtResource( 8 )]
+position = Vector2( 40, 136 )
+
+[node name="spikes_angled_left3" parent="Hazards" instance=ExtResource( 8 )]
+position = Vector2( 360, 136 )
+
+[node name="spikes_angled_right" parent="Hazards" instance=ExtResource( 11 )]
+
+[node name="spikes_angled_right2" parent="Hazards" instance=ExtResource( 11 )]
+position = Vector2( 104, 136 )
+
+[node name="spikes_angled_right3" parent="Hazards" instance=ExtResource( 11 )]
+position = Vector2( 264, 136 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+autoplay = true
+
+[node name="Moving_Blocks" type="Node" parent="."]
+
+[node name="moving_block" type="KinematicBody2D" parent="Moving_Blocks"]
+position = Vector2( 328, 72 )
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="grass_green" type="Sprite" parent="Moving_Blocks/moving_block"]
+position = Vector2( -5.68434e-14, -5.68434e-14 )
+scale = Vector2( 0.333333, 0.333333 )
+texture = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Moving_Blocks/moving_block"]
+shape = SubResource( 1 )
