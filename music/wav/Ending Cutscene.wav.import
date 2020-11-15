@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Ending Cutscene.wav-2914b0cdca9306f0f878393441c64da5.sample"
+
+[deps]
+
+source_file="res://music/wav/Ending Cutscene.wav"
+dest_files=[ "res://.import/Ending Cutscene.wav-2914b0cdca9306f0f878393441c64da5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
