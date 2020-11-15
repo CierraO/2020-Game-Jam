@@ -1,0 +1,87 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/tiles/leaves/animated/leaf_purple.tres" type="Texture" id=1]
+[ext_resource path="res://assets/tiles/leaves/animated/leaf_blue.tres" type="Texture" id=2]
+[ext_resource path="res://assets/tiles/leaves/animated/leaf_green.tres" type="Texture" id=3]
+[ext_resource path="res://assets/tiles/leaves/animated/leaf_black.tres" type="Texture" id=4]
+[ext_resource path="res://assets/tiles/leaves/animated/leaf_red.tres" type="Texture" id=5]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 24, 4 )
+
+[node name="Leaves" type="Node"]
+
+[node name="0" type="Sprite" parent="."]
+position = Vector2( 24, 8 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="0"]
+position = Vector2( -24, -8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="0/StaticBody2D"]
+visible = false
+position = Vector2( 24, 8 )
+shape = SubResource( 1 )
+
+[node name="1" type="Sprite" parent="."]
+position = Vector2( 88, 8 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="1"]
+position = Vector2( -24, -8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="1/StaticBody2D"]
+visible = false
+position = Vector2( 24, 8 )
+shape = SubResource( 1 )
+
+[node name="2" type="Sprite" parent="."]
+position = Vector2( 152, 8 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="2"]
+position = Vector2( -24, -8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="2/StaticBody2D"]
+visible = false
+position = Vector2( 24, 8 )
+shape = SubResource( 1 )
+
+[node name="3" type="Sprite" parent="."]
+position = Vector2( 24, 48 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="3"]
+position = Vector2( -24, -8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="3/StaticBody2D"]
+visible = false
+position = Vector2( 24, 8 )
+shape = SubResource( 1 )
+
+[node name="4" type="Sprite" parent="."]
+position = Vector2( 152, 48 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="4"]
+position = Vector2( -24, -8 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="4/StaticBody2D"]
+visible = false
+position = Vector2( 24, 8 )
+shape = SubResource( 1 )
