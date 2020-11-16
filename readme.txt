@@ -1,3 +1,6 @@
+In a post-apocalyptic world where robots are selected through competition to help the world rebuild, travel through a mysterious forest on your way to a competition while avoiding capture by a threatening stranger. Navigate across platforms and over spikes, bounce on mushrooms, and travel through magical warp zones as the forest grows stranger and stranger. But be careful, because your lantern will slowly lose light as you progress. Play Lantern and discover true meaning of cooperation through a puzzle-platformer adventure.
+
+
 CONTROLS
 Press A or the left arrow key to move forward.
 Press D or the right arrow key to move backward.
