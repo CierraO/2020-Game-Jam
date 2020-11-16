@@ -4,7 +4,7 @@ In a post-apocalyptic world where robots are selected through competition to hel
 CONTROLS
 Press A or the left arrow key to move forward.
 Press D or the right arrow key to move backward.
-Press W, the upwards arrow key, or the space bar to jump.
+Press W, the up arrow key, or the space bar to jump.
 Left-click to rotate tiles during puzzles.
 Press the space bar or left-click to advance through dialogue.
 
