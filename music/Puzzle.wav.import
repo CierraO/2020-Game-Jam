@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Puzzle.wav-34e8f7c563cab6c3885a6c3d1d6f4a2a.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/Puzzle.wav"
-dest_files=[ "res://.import/Puzzle.wav-34e8f7c563cab6c3885a6c3d1d6f4a2a.sample" ]
-
 [params]
 
 force/8_bit=false

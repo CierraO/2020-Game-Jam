@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Lantern.wav-b16acb0236cde5f6400ccad23b80931c.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/Lantern.wav"
-dest_files=[ "res://.import/Lantern.wav-b16acb0236cde5f6400ccad23b80931c.sample" ]
-
 [params]
 
 force/8_bit=false

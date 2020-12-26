@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/A Narrow Escape.wav-438d70bf4cd3378a4b7462a89bb7882f.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/A Narrow Escape.wav"
-dest_files=[ "res://.import/A Narrow Escape.wav-438d70bf4cd3378a4b7462a89bb7882f.sample" ]
-
 [params]
 
 force/8_bit=false

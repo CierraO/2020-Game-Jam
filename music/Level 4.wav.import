@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Level 4.wav-73eec912a3d89c2229e05f6e77761df7.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/Level 4.wav"
-dest_files=[ "res://.import/Level 4.wav-73eec912a3d89c2229e05f6e77761df7.sample" ]
-
 [params]
 
 force/8_bit=false

@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Bonus - Original Main Menu.wav-2788c5d0b971f4d1f53104a0c24fb41c.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/Bonus - Original Main Menu.wav"
-dest_files=[ "res://.import/Bonus - Original Main Menu.wav-2788c5d0b971f4d1f53104a0c24fb41c.sample" ]
-
 [params]
 
 force/8_bit=false

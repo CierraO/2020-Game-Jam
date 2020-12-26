@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Level 5.wav-6566a56b08081afcc262572d5036142f.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/Level 5.wav"
-dest_files=[ "res://.import/Level 5.wav-6566a56b08081afcc262572d5036142f.sample" ]
-
 [params]
 
 force/8_bit=false

@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Ending Cutscene.wav-95903bf69e310fc4557d729fe419bf63.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/Ending Cutscene.wav"
-dest_files=[ "res://.import/Ending Cutscene.wav-95903bf69e310fc4557d729fe419bf63.sample" ]
-
 [params]
 
 force/8_bit=false

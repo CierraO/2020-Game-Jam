@@ -2,13 +2,11 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Enemy Reveal.wav-534251707cfec5e08db2d48be5d27334.sample"
+valid=false
 
 [deps]
 
 source_file="res://music/Enemy Reveal.wav"
-dest_files=[ "res://.import/Enemy Reveal.wav-534251707cfec5e08db2d48be5d27334.sample" ]
-
 [params]
 
 force/8_bit=false
