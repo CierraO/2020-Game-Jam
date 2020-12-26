@@ -8,7 +8,7 @@
 [ext_resource path="res://scenes/spikes_right.tscn" type="PackedScene" id=6]
 [ext_resource path="res://tilesets/leaf-tiles.tres" type="TileSet" id=7]
 [ext_resource path="res://scenes/spikes_angled_left.tscn" type="PackedScene" id=8]
-[ext_resource path="res://music/wav/Level 1.wav" type="AudioStream" id=9]
+[ext_resource path="res://music/Level 1.wav" type="AudioStream" id=9]
 [ext_resource path="res://scenes/spikes.tscn" type="PackedScene" id=10]
 [ext_resource path="res://scenes/spikes_angled_right.tscn" type="PackedScene" id=11]
 
