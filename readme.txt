@@ -22,4 +22,4 @@ All additional sound effects are licensed under Creative Commons Zero.
 Made using Godot Engine
 https://godotengine.org/license
 
-GitHub Repository: https://github.com/CierraO/Lantern/
+GitHub Repository: https://github.com/8-bit-Falcons/Lantern/
