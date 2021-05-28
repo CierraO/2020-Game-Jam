@@ -11,11 +11,11 @@ Press the space bar or left-click to advance through dialogue.
 CREDITS
 All code, artwork, and music was created by the 8-bit Falcons.
 
-Story: Mitchell Berube, Cameron David, Katherine Lam, Conor Meenan, Cierra O'Grady, and Mason Woodhams
-Graphics: Katherine Lam (Director), Cameron David, Isaiah Imasuen, and Mason Woodhams
-Music/Sound Design: Mitchell Berube (Director), Ted Allen, and Katherine Lam
-Level Design: Ted Allen, Mitchell Berube, Cameron David, Katherine Lam, Conor Meenan, Cierra O'Grady, and Mason Woodhams
-Programming: Cierra O'Grady (Director) and Conor Meenan
+Story: Mitchell B., Cameron D., Katherine L., Conor M., Cierra O., and Mason W.
+Graphics: Katherine L. (Director), Cameron D., Isaiah I., and Mason W.
+Music/Sound Design: Mitchell B. (Director), Ted A., and Katherine L.
+Level Design: Ted A., Mitchell B., Cameron D., Katherine L., Conor M., Cierra O., and Mason W.
+Programming: Cierra O. (Director) and Conor M.
 
 All additional sound effects are licensed under Creative Commons Zero.
 
